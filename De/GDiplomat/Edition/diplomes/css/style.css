@@ -1,0 +1,87 @@
+body {
+    size: 7in 9.25in; 
+    font-size: 20px;
+}
+
+.grid-container-1 {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  font-size: 20px;
+}
+
+.grid-item-1 {
+    text-align: left;
+}
+.grid-item-2 {
+    text-align: right;
+}
+
+.filiere {
+    text-align: center;
+    line-height: 8px;
+}
+
+.grid-container-2 {
+    padding-top: -15px;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid-container-5 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto auto ;
+}
+
+.signature {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto auto ;
+}
+
+.grid-container-3{
+    font-size: 8px;
+    padding-top: -15px;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+}
+.grid-container-4{
+    font-size: 8px;
+    padding-top: -15px;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+}
+
+.important {
+    padding-top: 50px;
+    line-height: 4px;
+}
+
+.important p{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.grid-item-3 {
+    text-align: left;
+    margin: 5px;
+    font-size: 17px;
+}
+
+.sep-line {
+    padding-top: 0px;
+}
+
+.imprimer {
+    display: inline;
+    align-items: center;
+}
+
+.corps {
+    padding: 5px;
+}
